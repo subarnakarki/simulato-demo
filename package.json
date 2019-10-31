@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entryComponent.js",
+  "scripts": {
+    "test": "simulato run -T ./tests",
+    "pretest:generate": "rm -rf ./tests/*",
+    "start-test-site": "npm explore simulato-test-site -- npm start",
+    "generate": "simulato generate -f simulato-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "simulato": "^0.8.7"
+  }
+}
