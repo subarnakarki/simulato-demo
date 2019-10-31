@@ -103,9 +103,14 @@ module.exports = {
                 }
             },
             {
-                name: 'signInAnchorAnchorClicked',
+                name: 'signInAnchorClicked',
                 listener () {
                     expectedState.stash();
+                    expectedState.createAndAddComponent({
+                        type: 'SingInPage',
+                        name: 'singInPage',
+                        state: {},
+                    });
                 }
             }
         ];

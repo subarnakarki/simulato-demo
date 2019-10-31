@@ -7,5 +7,5 @@ module.exports = {
     componentPath: 'components',
     outputPath: 'tests',
     plannerAlgorithm: 'actionTree',
-    rerunFailedTests: 0,
+    rerunFailedTests: 1,
 };

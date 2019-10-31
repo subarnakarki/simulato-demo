@@ -22,9 +22,12 @@ module.exports = {
 		return {
 			CLICK: {
 				preconditions () {
-					return [
-						[ 'isTrue', `pageState.${this.name}.displayed` ],
-					];
+                    const preconditions = [ ['isTrue', `pageState.${this.name}.displayed`] ];
+
+                    if (this.options.customPreconditions) {
+                        preconditions.push(this.options.customPreconditions);
+                    }
+                    return preconditions;
 				},
 				perform (callback) {
 					driver.findElement(By.css(this.options.selector))
