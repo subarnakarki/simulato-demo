@@ -5,9 +5,8 @@
   "main": "entryComponent.js",
   "scripts": {
     "test": "simulato run -T ./tests",
-    "pretest:generate": "rm -rf ./tests/*",
-    "start-test-site": "npm explore simulato-test-site -- npm start",
-    "generate": "simulato generate -f simulato-config.js"
+    "generate": "simulato generate -f simulato-config.js",
+    "pregenerate": "rm -rf ./tests/*"
   },
   "author": "",
   "license": "ISC",
