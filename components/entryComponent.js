@@ -16,8 +16,7 @@ module.exports = {
         return {
             NAVIGATE_TO_GOOGLE: {
                 perform (callback) {
-                // driver.get('https://www.google.com/')
-                driver.get('https://www.google.com/imghp?hl=en&tab=wi&ogbl')
+                driver.get('https://www.google.com/')
                     .then(callback, callback);
                 },
                 effects (expectedState) {
