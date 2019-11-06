@@ -83,7 +83,7 @@ module.exports = {
                     displayed: true,
                 },
                 options: {
-                    selector: '.gb_ae.gb_1.gb_pb'
+                    selector: '#gb_70'
                 }
             }
         ];

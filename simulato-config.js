@@ -1,7 +1,5 @@
 'use strict';
 
-require('dotenv').config()
-
 module.exports = {
     testPath: 'tests',
     componentPath: 'components',
