@@ -1,1 +1,1 @@
-Meetup Demo - Testing is hard
+The Simulato Demo for the meetup
