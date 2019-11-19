@@ -107,8 +107,8 @@ module.exports = {
                 listener () {
                     expectedState.stash();
                     expectedState.createAndAddComponent({
-                        type: 'SingInPage',
-                        name: 'singInPage',
+                        type: 'SignInPage',
+                        name: 'signInPage',
                         state: {},
                     });
                 }

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    type: 'SingInPage',
+    type: 'SignInPage',
     elements () {
         return [];
     },
