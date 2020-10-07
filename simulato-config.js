@@ -6,4 +6,6 @@ module.exports = {
     outputPath: 'tests',
     plannerAlgorithm: 'actionTree',
     rerunFailedTests: 0,
+    plannerAlgorithm: 'actionTree',
+    plannerTestLength: 5
 };
